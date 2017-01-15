@@ -1,0 +1,8 @@
+Hello, future me!
+This repo stores your (encrypted, of course) public/private GPG keys.
+
+Here's a small tutorial in case you're dumber than your past self (very likely):
+1. $ gpg --decrypt <key-asc-file>.
+2. Untar result.
+3. $ gpg --import <public-key>
+4. $ gpg --import <private-key>
